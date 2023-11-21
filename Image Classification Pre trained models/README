@@ -1,0 +1,7 @@
+Analyze the performance of existing neural networks such as InceptionResNetV2, VGG 19 architectures
+
+- keras pre processing image: load, img_to_array
+- expand dims(image nr, height, width, channels)
+- preprocess_input
+- predict
+- decode_predictions
