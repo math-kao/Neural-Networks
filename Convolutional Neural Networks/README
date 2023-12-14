@@ -1,1 +1,24 @@
+Hello
+
+In this session, I build and trained a Convolutional Neural Network to predict the classification between cats / dogs.
+
+Training set: 8000 images of cats and dogs (4000 dogs/4000 cats)
+Test set: 2000 images of cats and dogs
+
+Steps:
+- Data preprocessing
+- Building CNN
+  - Initializing
+  - Convolution
+  - Pooling
+  - Second Convolution Layer
+  - Flattening
+  - Full connection 
+  - Output Layer
+- Training CNN
+  - Compiling and Fit
+- Prediction using my dogs images
+  - transforming image to array ( PIL -> array )
+  - expanding dimensions, once we divided training set in batchs
+  - prediction
 
